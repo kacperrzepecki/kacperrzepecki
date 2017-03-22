@@ -207,6 +207,13 @@ function prepareUIAnimations()
     
 	$(function() {
 		function emAnimation() {
+			$('#em_2').css({'opacity' : '0'});
+			$('#em_3').css({'opacity' : '0'});
+			$('#em_4').css({'opacity' : '0'});
+			$('#em_5').css({'opacity' : '0'});
+			$('#em_6').css({'opacity' : '0'});
+			$('#em_7').css({'opacity' : '0'});
+			$('#em_8').css({'opacity' : '0'});
 			$('#em_2').delay(0000+1000).animate({'opacity' : '1'}, 500).delay(9000+5000).animate({'opacity' : '0'}, 50);
 			$('#em_3').delay(1500+1000).animate({'opacity' : '1'}, 500).delay(7500+5000).animate({'opacity' : '0'}, 50);
 			$('#em_4').delay(3000+1000).animate({'opacity' : '1'}, 500).delay(6000+5000).animate({'opacity' : '0'}, 50);
